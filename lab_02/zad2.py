@@ -10,4 +10,6 @@ ress = res.find("div")
 resss = ress.find("p")
 
 zmienna = resss.get_text()
-print(zmienna)
+
+if __name__ == '__main__':
+    print(zmienna)
